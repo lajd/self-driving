@@ -1,0 +1,26 @@
+repos:
+-   repo: https://github.com/myint/docformatter
+    rev: v1.3.1
+    hooks:
+    - id: docformatter
+      exclude: setup\.py
+-   repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: v1.5  # Use the sha / tag you want to point at
+    hooks:
+    -   id: autopep8
+        args:
+            - --in-place
+            - --aggressive
+            - --aggressive
+            - --max-line-length=79
+        exclude: setup\.py
+-   repo: https://github.com/pre-commit/mirrors-isort
+    rev: v4.3.21  # Use the revision sha / tag you want to point at
+    hooks:
+    -   id: isort
+        exclude: setup\.py
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: 3.7.9
+    hooks:
+    - id: flake8
+      exclude: setup\.py
