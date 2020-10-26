@@ -1,41 +1,71 @@
 name: self-driving
 channels:
+  - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=main
-  - ca-certificates=2020.10.14=0
-  - certifi=2020.6.20=py38_0
-  - ld_impl_linux-64=2.33.1=h53a641e_7
-  - libedit=3.1.20191231=h14c3975_1
-  - libffi=3.3=he6710b0_2
-  - libgcc-ng=9.1.0=hdf63c60_0
-  - libstdcxx-ng=9.1.0=hdf63c60_0
-  - ncurses=6.2=he6710b0_1
-  - openssl=1.1.1h=h7b6447c_0
-  - pip=20.2.4=py38_0
-  - python=3.8.5=h7579374_1
-  - readline=8.0=h7b6447c_0
-  - setuptools=50.3.0=py38hb0f4dca_1
-  - sqlite=3.33.0=h62c20be_0
-  - tk=8.6.10=hbc83047_0
-  - wheel=0.35.1=py_0
-  - xz=5.2.5=h7b6447c_0
-  - zlib=1.2.11=h7b6447c_3
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=1_gnu
+  - ca-certificates=2020.6.20=hecda079_0
+  - certifi=2020.6.20=py38h924ce5b_2
+  - ld_impl_linux-64=2.35=h769bd43_9
+  - libffi=3.2.1=he1b5a44_1007
+  - libgcc-ng=9.3.0=h5dbcf3e_17
+  - libgomp=9.3.0=h5dbcf3e_17
+  - libstdcxx-ng=9.3.0=h2ae2ef3_17
+  - ncurses=6.2=he1b5a44_2
+  - openssl=1.1.1h=h516909a_0
+  - python=3.8.6=h852b56e_0_cpython
+  - python_abi=3.8=1_cp38
+  - readline=8.0=he28a2e2_2
+  - setuptools=49.6.0=py38h924ce5b_2
+  - sqlite=3.33.0=h4cf870e_1
+  - tk=8.6.10=hed695b0_1
+  - wheel=0.35.1=pyh9f0ad1d_0
+  - xz=5.2.5=h516909a_1
+  - zlib=1.2.11=h516909a_1010
   - pip:
+    - backcall==0.2.0
+    - chardet==3.0.4
+    - click==7.1.2
     - cycler==0.10.0
+    - decorator==4.4.2
     - ffmpeg-python==0.2.0
     - future==0.18.2
+    - idna==2.10
     - imageio==2.9.0
     - imageio-ffmpeg==0.4.2
+    - ipykernel==5.3.4
+    - ipython==7.18.1
+    - ipython-genutils==0.2.0
+    - jedi==0.17.2
+    - jupyter-client==6.1.7
+    - jupyter-core==4.6.3
     - kiwisolver==1.2.0
     - matplotlib==3.3.2
+    - moviepy==1.0.3
+    - mpimg==0.0.1
     - numpy==1.19.2
     - opencv-python==4.4.0.44
-    - pillow==8.0.1
-    - pyee==8.1.0
+    - parso==0.7.1
+    - pexpect==4.8.0
+    - pickleshare==0.7.5
+    - pillow==8.0.0
+    - pip==20.2.4
+    - proglog==0.1.9
+    - prompt-toolkit==3.0.8
+    - ptyprocess==0.6.0
+    - pygments==2.7.2
     - pyparsing==2.4.7
     - python-dateutil==2.8.1
-    - scikit-video==1.1.11
+    - pyzmq==19.0.2
+    - requests==2.24.0
     - scipy==1.5.3
     - six==1.15.0
+    - sk-video==1.1.10
+    - tornado==6.0.4
+    - tqdm==4.50.2
+    - traitlets==5.0.5
+    - urllib3==1.25.11
+    - wcwidth==0.2.5
 prefix: /home/jon/anaconda3/envs/self-driving
+

@@ -1,5 +1,4 @@
 #!/bin/bash
-# From SceneBox Root:
-#   - ./development/setup.sh
 
+sudo apt install ffmpeg
 pre-commit install
