@@ -1,4 +1,4 @@
-name: self-driving
+sname: self-driving
 channels:
   - conda-forge
   - defaults

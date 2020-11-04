@@ -21,7 +21,7 @@ Activate the conda environment with: <br/>
 
 ## Project 1: CarND-LaneLines-P1
 Please run the jupyter notebook located in the project directory.
-- [Project 1 Report](CarND-LaneLines-P1/REPORT.md)
+- [Project 1 Report](CarND_LaneLines_P1/REPORT.md)
 <br/>
 <img src="https://github.com/lajd/self-driving/blob/master/resources/P1/challenge.gif?raw=true" width="350" height="200" />
 <br/>

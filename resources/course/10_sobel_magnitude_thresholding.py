@@ -7,8 +7,8 @@ def mag_thresh(img, sobel_kernel=3, mag_thresh=(0, 255)):
     # 1) Convert to grayscale
     gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
     # 2) Take the gradient in x and y separately
-    sobelx = cv2.Sobel(gray, cv2.CV_64F, *[1, 0])
-    sobely = cv2.Sobel(gray, cv2.CV_64F, *[0, 1])
+    sobelx = cv2.Sobel(gray, cv2.CV_64F, *[1, 0], ksize=sobel_kernel)
+    sobely = cv2.Sobel(gray, cv2.CV_64F, *[0, 1], ksize=sobel_kernel)
 
     # 3) Calculate the magnitude 
     magnitude = np.sqrt(sobelx ** 2 + sobely ** 2)
